@@ -34,11 +34,11 @@ This document contains instructions for setting up and running your
 
 **Windows 7**
 Ensure all the following are installed:
-1. Dotnet framework 4.5.2
-2. VC++ 2017
-3. Python 2.7
-4. NodeJS 10+
-5. Windows 7 (Service Pack One)
+1. Windows 7 _**(Service Pack One)**_
+2. Dotnet framework 4.5.2
+3. VC++ 2017
+4. Python 2.7
+5. NodeJS 10+
 6. Yarn (latest)
 
 
