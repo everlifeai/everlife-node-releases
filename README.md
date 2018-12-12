@@ -1,7 +1,7 @@
-# Your Everlife.Ai Avatar Node
+# Your Everlife.AI Avatar Node
 
-This your main Everlife.ai avatar node. You can use it to set up your
-personal avatar and connect it to the Everlife network.
+This your main Everlife.AI Avatar node. You can use it to set up your
+personal avatar and connect it to the Everlife.AI network.
 
 The Avatar Node comes in two flavors:
 1. A [Docker](https://www.docker.com/) version that can be deployed on
@@ -47,9 +47,13 @@ Ensure all the following are installed:
 In order to get a working avatar with a wallet, you need to set it up
 and configure it.
 
-1. Unzip the avatar into your `$HOME` directory
-2. Go to the command prompt and navigate to your node directory
-3. `run setup`
+1. Download the correct version of Avatar Node for your environment
+[Windows 64 bit Version of Avatar Node] (https://github.com/everlifeai/everlife-node-releases/releases/download/v0.4.0/elife_0.4.0-windows-x64.zip) or
+[Windows 32 bit Version of Avatar Node] (https://github.com/everlifeai/everlife-node-releases/releases/download/v0.4.0/elife_0.4.0-windows-x32.zip)
+
+2. Unzip the avatar into your `$HOME` directory
+3. Go to the command prompt and navigate to your node directory
+4. `run setup`
 
 In order to safeguard the wallet, it is password protected. So that the
 user does not need to type in this password again and again it needs to
@@ -65,10 +69,11 @@ RECOVERED**.
 In order to get a working avatar with a wallet, you need to set it up
 and configure it. First you need to set up the required docker
 containers. Perform the following steps:
-
-1. Unzip the avatar into your `$HOME` directory
-2. Go to the command prompt and navigate to your node directory
-3. `./run.sh setup`
+1. Download the Docker Version of Avatar Node
+[Docker Version of Avatar Node] (https://github.com/everlifeai/everlife-node-releases/releases/download/v0.4.0/elife_0.4.0-docker.tar.gz)
+2. Unzip the avatar into your `$HOME` directory
+3. Go to the command prompt and navigate to your node directory
+4. `./run.sh setup`
 
 In order to safeguard the wallet, it is password protected. So that the
 user does not need to type in this password again and again it needs to
