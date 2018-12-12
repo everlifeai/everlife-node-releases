@@ -48,8 +48,8 @@ In order to get a working avatar with a wallet, you need to set it up
 and configure it.
 
 1. Download the correct version of Avatar Node for your environment
-[Windows 64 bit Version of Avatar Node] (https://github.com/everlifeai/everlife-node-releases/releases/download/v0.4.0/elife_0.4.0-windows-x64.zip) or
-[Windows 32 bit Version of Avatar Node] (https://github.com/everlifeai/everlife-node-releases/releases/download/v0.4.0/elife_0.4.0-windows-x32.zip)
+[Windows 64 bit Version of Avatar Node](https://github.com/everlifeai/everlife-node-releases/releases/download/v0.4.0/elife_0.4.0-windows-x64.zip) or
+[Windows 32 bit Version of Avatar Node](https://github.com/everlifeai/everlife-node-releases/releases/download/v0.4.0/elife_0.4.0-windows-x32.zip)
 
 2. Unzip the avatar into your `$HOME` directory
 3. Go to the command prompt and navigate to your node directory
@@ -69,8 +69,7 @@ RECOVERED**.
 In order to get a working avatar with a wallet, you need to set it up
 and configure it. First you need to set up the required docker
 containers. Perform the following steps:
-1. Download the Docker Version of Avatar Node
-[Docker Version of Avatar Node] (https://github.com/everlifeai/everlife-node-releases/releases/download/v0.4.0/elife_0.4.0-docker.tar.gz)
+1. Download the [Docker Version of Avatar Node](https://github.com/everlifeai/everlife-node-releases/releases/download/v0.4.0/elife_0.4.0-docker.tar.gz)
 2. Unzip the avatar into your `$HOME` directory
 3. Go to the command prompt and navigate to your node directory
 4. `./run.sh setup`
