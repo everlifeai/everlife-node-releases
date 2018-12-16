@@ -27,7 +27,7 @@ This document contains instructions for setting up and running your
 ### Windows Pre-requisities
 
 **Windows 10**
-1. Install [NodeJS](https://nodejs.org/)
+1. Install [NodeJS](https://nodejs.org/) (LTS Version)
    (install all the options including Python and the dotnet framework
     required by [node-gyp](https://github.com/nodejs/node-gyp)
 2. Install [Yarn](https://yarnpkg.com/)
@@ -38,7 +38,7 @@ Ensure all the following are installed:
 2. Dotnet framework 4.5.2
 3. VC++ 2017
 4. Python 2.7
-5. NodeJS 10+
+5. NodeJS 10+ (LTS)
 6. Yarn (latest)
 
 
