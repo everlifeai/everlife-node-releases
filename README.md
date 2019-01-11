@@ -56,6 +56,33 @@ When you need to stop the Avatar.
 
 Get in touch with us.
 
+## Personalizing your Avatar
+
+Your avatar has the ability to talk to you and learn about you. Some of
+this information - like your skills and work history it will use to chat
+with other avatars and network. Other information - like you life story
+it will keep as an encrypted record for the future.
+
+You have the ability to extend the avatar's ability to gather
+information so it will store information that you feel is important to
+you. For now, the avatar comes with three sets of information storage
+that you can try out and experiment with:
+
+    you> Ask about me
+    avatar> (Gathers information about you)
+
+    you> Ask about school
+    avatar> (Gathers information about your school life)
+
+    you> Ask about love
+    avatar> (Gathers information about your love life)
+
+For now the avatar stores this information in a text file `kb.txt` ever
+few minutes. Shortly, however, this information will be stored encrypted
+on the Everchain and hence be available to talk with other avatars and
+immune from destruction.
+
+
 ## Notes on Avatar maintenance
 
 ### Backup your Avatar data
