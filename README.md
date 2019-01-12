@@ -59,8 +59,8 @@ Get in touch with us.
 ## Personalizing your Avatar
 
 Your avatar has the ability to talk to you and learn about you. Some of
-this information - like your skills and work history it will use to chat
-with other avatars and network. Other information - like you life story
+this information - like your skills and work history - it will use to chat
+with other avatars and network. Other information - like your life story -
 it will keep as an encrypted record for the future.
 
 You have the ability to extend the avatar's ability to gather
