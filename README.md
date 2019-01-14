@@ -10,7 +10,15 @@ This document contains instructions for setting up and running your
 
 Should you run into problems we are [here](docs/9_Feedback.md) to help you!
 
-## 1. Installing
+## Existing Avatar Node Upgrade
+
+If you already have an Avatar node installed, make sure you [stop it](docs/300_Stopping_Avatar.md). You can switch to a newer version just by extracting the new version in parallel to the old files and then [start it](docs/130_Start_Avatar.md) using the new files.
+
+#### Upgrading from versions < 3.0.0 (Linux and MacOS only)
+
+Due to changes in the Avatar Wallet management the wallet needs to be upgraded when upgrading an Avatar node with version less than 3.0.0. In this case follow [these instructions to upgrade it](docs/115_Setup_Wallet_Docker.md#migrating-from-an-earlier-wallet-version-avatar-node-version--300).
+
+## 1. New Avatar Node Install
 
 Depending on which Operating System you are on, please select the corresponding installation path:
 
@@ -20,13 +28,9 @@ Depending on which Operating System you are on, please select the corresponding 
 
 ### [Install on Windows](docs/120_Install_Windows.md)
 
-### Upgrading
 
-If you already have the Avatar node installed you can switch to a newer version just by extracting the new version in parallel to the old files and then [start it](docs/130_Start_Avatar.md) using the new files.
 
-#### Upgrading from versions < 3.0.0 (Linux and MacOS only)
 
-Due to changes in the Avatar Wallet management the wallet needs to be upgraded when upgrading an Avatar node with version less than 3.0.0. In this case follow [these instructions to upgrade it](docs/115_Setup_Wallet_Docker.md#migrating-from-an-earlier-wallet-version-avatar-node-version--300).
 
 ## [2. Setup Telegram Channel](docs/130_Setup_Telegram.md)
 
