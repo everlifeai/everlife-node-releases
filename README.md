@@ -82,6 +82,8 @@ few minutes. Shortly, however, this information will be stored encrypted
 on the Everchain and hence be available to talk with other avatars and
 immune from destruction.
 
+### Setup
+For this version, the `kb.txt` file  must be made available. Copy it from `elife/services/services/elife-ai/brains/ebrain-aiml/kb.txt` to your DATA folder (`\data` on windows `../elife.data` with docker).
 
 ## Notes on Avatar maintenance
 
