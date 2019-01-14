@@ -85,6 +85,9 @@ immune from destruction.
 ### Setup
 For this version, the `kb.txt` file  must be made available. Copy it from `elife/services/services/elife-ai/brains/ebrain-aiml/kb.txt` to your DATA folder (`\data` on windows `../elife.data` with docker).
 
+**NOTE FOR WINDOWS USERS**: For the AIML brain to work correctly, in addition to the above, please add the path to python.exe (Python version 2) to your PATH environmental variable.
+
+
 ## Notes on Avatar maintenance
 
 ### Backup your Avatar data
