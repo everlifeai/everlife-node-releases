@@ -1,6 +1,6 @@
 # Your Everlife.AI Avatar Node
 
-This your main Everlife.AI Avatar node. You can use it to set up your
+[This](https://github.com/everlifeai/everlife-node-releases/releases) is your main Everlife.AI Avatar node. You can use it to set up your
 personal avatar and connect it to the Everlife.AI network.
 
 ![Everlife Avatar](avatar_600x600.png)
@@ -9,6 +9,8 @@ This document contains instructions for setting up and running your
 **Everlife** avatar on your own machines by following the steps below. When installing for the first time we recommend that you follow all the steps carefully to install, configure, start and familiarize yourself with your Avatar.
 
 Should you run into problems we are [here](docs/9_Feedback.md) to help you!
+
+[Download the latest release here](https://github.com/everlifeai/everlife-node-releases/releases)
 
 ## Existing Avatar Node Upgrade
 
