@@ -6,7 +6,7 @@ Compared to the Linux and MacOS versions of the Avatar node, the Windows version
 
 ### Windows 10
 
-1. Install [NodeJS](https://nodejs.org/) - LTS Version, make sure to install all the options including Python and the .NET Framework which required by [node-gyp](https://github.com/nodejs/node-gyp)
+1. Install [NodeJS](https://nodejs.org/) - LTS Version 10, make sure to install all the options including Python and the .NET Framework which required by [node-gyp](https://github.com/nodejs/node-gyp)
 2. Install [Yarn](https://yarnpkg.com/)
 
 ### Windows 7
