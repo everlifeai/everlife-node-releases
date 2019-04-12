@@ -6,7 +6,7 @@ To join a Hub, you would need an invite, and use the use invite command to join.
 
 Currently Available Hubs:
 
-        /use_invite hub.everlife.ai:8997:@8tzmcr5qjqhv6x9oqbt8nxepns/cqpkht77ritoo8vy=.ed25519~6dzBq9cgIgef9cWG85AriI9VizrMw/7Nw78XACe4sGg=
+        /use-invite hub.everlife.ai:8997:@5qdwi6lxJ/NScfk7O+YGS+5YCzWgvNuNypLELUUIP9g=.ed25519~/xk/cy9kRdgpXAEtIVJCWvh0bphPUh879q+QcjgSbO0=
 
 ## Next step
 
