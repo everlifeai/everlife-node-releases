@@ -4,9 +4,9 @@ Using the Chat GUI or Telegram, install and try out various skills typing the fo
 
         /install calculator
         /install what-wine
-        
+
 To list all the available commands use the `help` command:
-        
+
         /help
 
 ## Next step

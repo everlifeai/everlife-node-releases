@@ -14,11 +14,8 @@ Should you run into problems we are [here](docs/9_Feedback.md) to help you!
 
 ## Existing Avatar Node Upgrade
 
-If you already have an Avatar node installed, make sure you [stop it](docs/300_Stopping_Avatar.md). You can switch to a newer version just by extracting the new version in parallel to the old files and then [start it](docs/130_Start_Avatar.md) using the new files.
+If you already have an Avatar node installed, make sure you stop it. You can switch to a newer version just by extracting the new version in parallel to the old files and then [start it](docs/130_Start_Avatar.md) using the new files.
 
-#### Upgrading from versions < 3.0.0 (Linux and MacOS only)
-
-Due to changes in the Avatar Wallet management the wallet needs to be upgraded when upgrading an Avatar node with version less than 3.0.0. In this case follow [these instructions to upgrade it](docs/115_Setup_Wallet_Docker.md#migrating-from-an-earlier-wallet-version-avatar-node-version--300).
 
 ## 1. New Avatar Node Install
 
@@ -29,8 +26,6 @@ Depending on which Operating System you are on, please select the corresponding 
 ### [Install on MacOS](docs/110_Install_MacOS.md)
 
 ### [Install on Windows](docs/120_Install_Windows.md)
-
-
 
 
 
@@ -54,11 +49,7 @@ Get connected to the Avatar network.
 
 Extending the Avatar by adding to its skillset.
 
-## [7. Stopping the Avatar](docs/300_Stopping_Avatar.md)
-
-When you need to stop the Avatar.
-
-## [8. Feedback and Support](docs/900_Feedback.md)
+## [7. Feedback and Support](docs/900_Feedback.md)
 
 Get in touch with us.
 
@@ -88,20 +79,19 @@ few minutes. Shortly, however, this information will be stored encrypted
 on the Everchain and hence be available to talk with other avatars and
 immune from destruction.
 
-### Setup
-For this version, the `kb.txt` file  must be made available. Copy it from `elife/services/services/elife-ai/brains/ebrain-aiml/kb.txt` to your DATA folder (`\data` on windows `../elife.data` with docker).
-
-**NOTE FOR WINDOWS USERS**: For the AIML brain to work correctly, in addition to the above, please add the path to python.exe (Python version 2) to your PATH environmental variable.
-
 
 ## Notes on Avatar maintenance
 
 ### Backup your Avatar data
 
-The avatar's data always lives in the folder `elife.data` (for Linux/MacOS)
-and `C:\data` (for Windows). It is recommended that you backup this
-folder as it contains your `Everchain`, your `database`, and your
-`Stellar` wallet.
+To find your avatar's data storage run the start script with `--info`
+skip. For example:
+
+        $> ./run-mac.sh --info
+
+And it will give you the location of your data.  It is recommended that
+you backup this folder as it contains your `Everchain`, your `database`,
+and your `Stellar` wallet.
 
 **`elife.db`** ![db](db.png)
 
