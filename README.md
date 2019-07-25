@@ -1,57 +1,31 @@
 # Your Everlife.AI Avatar Node
 
-[This](https://github.com/everlifeai/everlife-node-releases/releases) is your main Everlife.AI Avatar node. You can use it to set up your
+[This](https://github.com/everlifeai/everlife-node-releases/releases/latest) is your main Everlife.AI Avatar node. You can use it to set up your
 personal avatar and connect it to the Everlife.AI network.
 
 ![Everlife Avatar](avatar_600x600.png)
 
-This document contains instructions for setting up and running your
-**Everlife** avatar on your own machines by following the steps below. When installing for the first time we recommend that you follow all the steps carefully to install, configure, start and familiarize yourself with your Avatar.
+To start, download the installer for your **Everlife** avatar on your
+run it to install the Everlife node on your local machine.
 
-Should you run into problems we are [here](docs/9_Feedback.md) to help you!
+Should you run into problems we are [here](docs/900_Feedback.md) to help you!
 
-[Download the latest release here](https://github.com/everlifeai/everlife-node-releases/releases)
-
-## Existing Avatar Node Upgrade
-
-If you already have an Avatar node installed, make sure you stop it. You can switch to a newer version just by extracting the new version in parallel to the old files and then [start it](docs/130_Start_Avatar.md) using the new files.
+[Download the latest release here](https://github.com/everlifeai/everlife-node-releases/releases/latest)
 
 
-## 1. New Avatar Node Install
+## Additional Steps
 
-Depending on which Operating System you are on, please select the corresponding installation path:
-
-### [Install on Linux](docs/100_Install_Linux.md)
-
-### [Install on MacOS](docs/110_Install_MacOS.md)
-
-### [Install on Windows](docs/120_Install_Windows.md)
-
-
-
-## [2. Setup Telegram Channel](docs/130_Setup_Telegram.md)
+## [1. Setup Telegram Channel](docs/130_Setup_Telegram.md)
 
 Configure Telegram as a communication channel for your Avatar.
 
-## [3. Start the Avatar](docs/200_Start_Avatar.md)
-
-Awaken the Avatar.
-
-## [4. Start the QWERT Chat GUI](docs/210_Starting_Chat_GUI.md)
-
-Use the QWERT Chat GUI as a communication channel for your Avatar.
-
-## [5. Join an Avatar Hub](docs/220_Join_Hub.md)
+## [2. Join an Avatar Hub](docs/220_Join_Hub.md)
 
 Get connected to the Avatar network.
 
-## [6. Add Avatar Skills](docs/230_Add_Skills.md)
+## [3. Add Avatar Skills](docs/230_Add_Skills.md)
 
 Extending the Avatar by adding to its skillset.
-
-## [7. Feedback and Support](docs/900_Feedback.md)
-
-Get in touch with us.
 
 ## Personalizing your Avatar
 
@@ -84,16 +58,25 @@ immune from destruction.
 
 ### Backup your Avatar data
 
-To find your avatar's data storage run the start script with `--info`
-skip. For example:
+To find your avatar's data storage you can simply ask it by running the
+command:
 
-        $> ./run-mac.sh --info
+        /whoami
 
 And it will give you the location of your data.  It is recommended that
 you backup this folder as it contains your `Everchain`, your `database`,
 and your `Stellar` wallet.
 
 **`elife.db`** ![db](db.png)
+
+The easy way to back this up is to go to your 'Profile' tab and click
+the 'Backup' button:
+
+![backup](backup.png)
+
+## Feedback and support
+
+[Get in touch with us](docs/900_Feedback.md)
 
 ![Avatar](avatar_256x256.png)
 

@@ -8,6 +8,3 @@ Currently Available Hubs:
 
         /use-invite hub.everlife.ai:8997:@5qdwi6lxJ/NScfk7O+YGS+5YCzWgvNuNypLELUUIP9g=.ed25519~/xk/cy9kRdgpXAEtIVJCWvh0bphPUh879q+QcjgSbO0=
 
-## Next step
-
-[Add Avatar Skills](230_Add_Skills.md) 

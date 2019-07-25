@@ -9,6 +9,3 @@ To list all the available commands use the `help` command:
 
         /help
 
-## Next step
-
-[Stopping the Avatar](300_Stopping_Avatar.md) 

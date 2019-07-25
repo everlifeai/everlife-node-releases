@@ -21,6 +21,3 @@ steps for doing this are as follows:
    this, simply save the telegram token in `cfg.env` in your data
    directory.
 
-## Next step
-
-[Starting the Avatar](200_Start_Avatar.md) 
